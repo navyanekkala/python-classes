@@ -1,0 +1,95 @@
+machine learning is think by itself just by training the previous data(a computer program is said to learn from experince wrt to tasks)
+3 types:1. supervised
+        2. unsupervised  
+        3. reinforced(under development)
+what isartifical intelligence,machine learning,and deep learing 
+ARTIFICAL INTELLIGENCE: artifical intellingce (AI) is the science of making things smart( "human intelligence exhibited by machines")
+common cases in AI: . sound detection 
+                    . OBJECT DETECTION
+                    . natural language processing/ sentiment analysis
+                    . creative(like style transfer)
+                    . prediction-(give some inputs,what is expected o/p for unseen examples)
+                    . translation b/w languages
+                    . restoration/transformation
+MACHINE LEARNING: " an approch to achieve AI through s/m that can learn from experience to find patterns is set of data"(ML is hot new thing)
+DEEP LEARNING:"a technique for implementing machine learning".
+classical programming vs machine learning
+classical(inputs- data,rules;output- answers)
+ML(inputs- data,anwers;output-rules)
+
+TYPES OF VARIABLES:(NUMBERS,DATES AND STRING)
+                1. NUMERICAL(MADE OF NUMBERS-AGE,WEIGHT)
+                     * CONTINUOUS(INFINTE OPTIONS- AGE, WEIGHT,AND BLOOD PRESSURE)
+                     * DISCRETE(SHOE SIZE,NO OF CHILDREN)
+                2. CATEGORIAL(MADE OF WORDS- EYECOLOR,GENDER,BLOOD TYPE)
+                     * ORDINAL(DATA HAS A HIERARCHY- PAIN SEVERITY,MOOD)
+                     *NOMIAL(DATA HAS NO HIERARCHY- EYECOLOR,DOG BREED AND BLOOD TYPE)
+                     
+***  MACHINE LEARNING PROCESS:
+         1. GET DATA
+         2. CLEAN,PREPARE & MANIPULATE DATA
+         3. TRAIN MODEL
+         4. TEST DATA
+         5. IMPROVE
+packages for ML in python:
+  * seaborn
+  * matplotlib
+  * scikit-learn
+  * pandas
+  * tensorflow
+  * theano
+  * numpy
+ 
+FEATURES / ATTRIBUTES
+ . FEATURES(AKA attributes) are used to train Ml system. They are the properties of the thing you are gng to learn
+ . choosing useful features can have a big impact on the quality of the system
+
+HOW ML SYSTEM TRAINED
+ * SUPERVISED LEARNING(CLASSIFICATION ALGORITHM)
+ * SUPERVISED LEARNING(CLUSTERING ALGORITHM)
+ * REINFORCEMENT
+ 
+ML improves consumer experiences:
+ * google search,chrome,google photos,google assistant,gmail, google maps,android,google translate, drive.
+         
+ ML LEARNING ALGORITHMS SUPERVISED
+        Regression                                          classification
+      * linear  regression                                  * linear classifiers
+      * logistic regression                                    . logistic regression
+      * polynomial regression                                  . naive bayes classifier
+                                                             * nearest neighbor
+                                                             * support vector machines
+                                                             * decision tress
+                                                             * random forest
+*** UN SUPERSVISED(CLUSTERING TYPES)
+      . HIERARCHICAL CLUSTERING
+      . K- MEANS CLUSTERING
+      . K-NN (K NEAREST NEIGHBORS)
+      . PRINCIPAL COMPONENT ANALYSIS
+      . SINGULAR VALUE DECOMPOSITION
+      . INDEPENDENT COMPONENT ANALYSIS
+  REGRESSION: A  mathematical relationship enabling us to predict what values of one variable(y) correspond to given values of another variable(x).
+  Y: reffered as dependent variable or response variable to predict variable
+  x: reffered as 
+ 
+linear regression: Is one of teh most simple yet widely used statstical machine learning technique.It tries .to map one or more independent variables to dependent variable.
+Steps in regression analysis:
+. examine the scatter plot of the data:
+  1. does relation should look linear
+  2. are there points in locations they shouldn't be?
+  3. do we need a transformation?
+. assuming a linear function looks appropriate  
+*regression analysis:
+  thus we have the regression formula as:
+  Y = MX+C+ERRROE(E).
+  INITALLY we calculate the value for slope and predict the values of y for any x values we have: slope(m)=(xi-xmean)*(yi-ymean)/(xi-xmean)^2
+  
+  
+  
+  m=0
+  l=0
+H=[158,158,158,160,163,163,160,163,163,165,165,168,168,170,170]
+w=[58,59,63,59,60,60,61,64,64,61,62,65,62,63,66]
+t=['m','m','m','m','m','m','m','m','l','l','l','l','l','l','l']
+H1=161
+W1=61
